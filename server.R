@@ -2,9 +2,7 @@
 # This is the server logic of a Shiny web application. You can run the 
 
 library(shiny)
-library(miniUI)
 library(ggplot2)
-library(datasets)
 #Load Data
 population<-read.csv("census_new_zealand.csv")
 #save(population, file="census_new_zealand.Rdata")

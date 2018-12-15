@@ -13,7 +13,6 @@ library(ggplot2)
 #setwd("C://data_science/09_data_product")
 #population<-read.csv("census_new_zealand.csv")
 
-
 # Define UI for application that draws a histogram
 shinyUI(fluidPage(
   

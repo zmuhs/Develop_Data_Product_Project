@@ -44,9 +44,10 @@ head(population)
 ##Uploads
 
 1. The shiny app was published into shinyapps.io
+https://zmuhs.shinyapps.io/Develop_Data_Product_Project/
 
 2. The codes (server.R and ui.R) been uploaded into github.
-
+https://github.com/zmuhs/Develop_Data_Product_Project
 
 
 
