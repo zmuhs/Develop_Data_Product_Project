@@ -1,0 +1,52 @@
+---
+title: "Developing Data Products - Final Project"
+author: "Zaid Muhsin"
+date: "December 15, 2018"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+```{r}
+setwd("C://data_science/09_data_product/project")
+population<-read.csv("census_new_zealand.csv")
+```
+
+## Backgrouond
+
+As part of the coursera course (Developing Data Product), students required to develop a shiny application in R. 
+
+The developed application chosen for this project, plots the New Zealand population by gender since 1971, using the ggplot.
+
+Data had been downloaded from http://archive.stats.govt.nz/Census 
+
+## Shiny App
+
+The shiny app meet the below requirement.
+
+The application meets the following requirements:
+
+ - Some form of input (widget: radio button, list box )
+ - Some operation on the ui input in sever.R
+ - Some output displayed as a result of server calculations (plotting the graph using ggpplot).
+ - You must also include enough documentation so that a novice user could use your application.
+
+The application allows the user to choose the gender, and the year.
+Colour of the plot changes dynamically based on gender  (blue for men and pink for female).
+
+## Data Used
+
+```{r, comment = "", echo=TRUE}
+head(population)
+```    
+
+##Uploads
+
+1. The shiny app was published into shinyapps.io
+
+2. The codes (server.R and ui.R) been uploaded into github.
+
+
+
+
